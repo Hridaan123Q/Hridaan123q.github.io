@@ -1,5 +1,5 @@
 // ContentView.swift
-// Prompt Engineer — Cross-platform (iOS · iPadOS · macOS · visionOS)
+// PromptArchitect — Cross-platform (iOS · iPadOS · macOS · visionOS)
 
 import SwiftUI
 import Combine
@@ -36,7 +36,7 @@ private struct WideLayout: View {
                     .navigationTitle("Engineered Prompt")
             }
         }
-        .navigationTitle("Prompt Engineer")
+        .navigationTitle("PromptArchitect")
         #if os(macOS)
         .navigationSubtitle(viewModel.processingState.statusText)
         #endif

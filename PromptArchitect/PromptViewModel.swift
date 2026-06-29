@@ -1,5 +1,5 @@
 // PromptViewModel.swift
-// Prompt Engineer — Cross-platform (iOS · iPadOS · macOS · visionOS)
+// PromptArchitect — Cross-platform (iOS · iPadOS · macOS · visionOS)
 
 import Foundation
 import SwiftUI

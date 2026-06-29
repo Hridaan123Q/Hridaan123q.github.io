@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C7F42DE42FCD4DE0005C8CA3"
-               BuildableName = "Prompt Enginner.app"
-               BlueprintName = "Prompt Enginner"
-               ReferencedContainer = "container:Prompt Enginner.xcodeproj">
+               BuildableName = "PromptArchitect.app"
+               BlueprintName = "PromptArchitect"
+               ReferencedContainer = "container:PromptArchitect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,9 +50,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7F42DE42FCD4DE0005C8CA3"
-            BuildableName = "Prompt Enginner.app"
-            BlueprintName = "Prompt Enginner"
-            ReferencedContainer = "container:Prompt Enginner.xcodeproj">
+            BuildableName = "PromptArchitect.app"
+            BlueprintName = "PromptArchitect"
+            ReferencedContainer = "container:PromptArchitect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7F42DE42FCD4DE0005C8CA3"
-            BuildableName = "Prompt Enginner.app"
-            BlueprintName = "Prompt Enginner"
-            ReferencedContainer = "container:Prompt Enginner.xcodeproj">
+            BuildableName = "PromptArchitect.app"
+            BlueprintName = "PromptArchitect"
+            ReferencedContainer = "container:PromptArchitect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,13 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C7F42DE52FCD4DE0005C8CA3 /* Prompt Enginner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prompt Enginner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F42DE52FCD4DE0005C8CA3 /* PromptArchitect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PromptArchitect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C7F42DE72FCD4DE0005C8CA3 /* Prompt Enginner */ = {
+		C7F42DE72FCD4DE0005C8CA3 /* PromptArchitect */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Prompt Enginner";
+			path = "PromptArchitect";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,7 +39,7 @@
 		C7F42DDC2FCD4DE0005C8CA3 = {
 			isa = PBXGroup;
 			children = (
-				C7F42DE72FCD4DE0005C8CA3 /* Prompt Enginner */,
+				C7F42DE72FCD4DE0005C8CA3 /* PromptArchitect */,
 				C7F42DE62FCD4DE0005C8CA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,7 +47,7 @@
 		C7F42DE62FCD4DE0005C8CA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7F42DE52FCD4DE0005C8CA3 /* Prompt Enginner.app */,
+				C7F42DE52FCD4DE0005C8CA3 /* PromptArchitect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,9 +55,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7F42DE42FCD4DE0005C8CA3 /* Prompt Enginner */ = {
+		C7F42DE42FCD4DE0005C8CA3 /* PromptArchitect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7F42DF02FCD4DE1005C8CA3 /* Build configuration list for PBXNativeTarget "Prompt Enginner" */;
+			buildConfigurationList = C7F42DF02FCD4DE1005C8CA3 /* Build configuration list for PBXNativeTarget "PromptArchitect" */;
 			buildPhases = (
 				C7F42DE12FCD4DE0005C8CA3 /* Sources */,
 				C7F42DE22FCD4DE0005C8CA3 /* Frameworks */,
@@ -68,15 +68,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C7F42DE72FCD4DE0005C8CA3 /* Prompt Enginner */,
+				C7F42DE72FCD4DE0005C8CA3 /* PromptArchitect */,
 			);
-			name = "Prompt Enginner";
+			name = "PromptArchitect";
 			packageProductDependencies = (
 				C7F42E042FCD5197005C8CA3 /* AsyncAlgorithms */,
 				C7F42E062FCD5197005C8CA3 /* AsyncStreaming */,
 			);
-			productName = "Prompt Enginner";
-			productReference = C7F42DE52FCD4DE0005C8CA3 /* Prompt Enginner.app */;
+			productName = "PromptArchitect";
+			productReference = C7F42DE52FCD4DE0005C8CA3 /* PromptArchitect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C7F42DE02FCD4DE0005C8CA3 /* Build configuration list for PBXProject "Prompt Enginner" */;
+			buildConfigurationList = C7F42DE02FCD4DE0005C8CA3 /* Build configuration list for PBXProject "PromptArchitect" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7F42DE42FCD4DE0005C8CA3 /* Prompt Enginner */,
+				C7F42DE42FCD4DE0005C8CA3 /* PromptArchitect */,
 			);
 		};
 /* End PBXProject section */
@@ -340,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7F42DE02FCD4DE0005C8CA3 /* Build configuration list for PBXProject "Prompt Enginner" */ = {
+		C7F42DE02FCD4DE0005C8CA3 /* Build configuration list for PBXProject "PromptArchitect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F42DEE2FCD4DE1005C8CA3 /* Debug */,
@@ -349,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F42DF02FCD4DE1005C8CA3 /* Build configuration list for PBXNativeTarget "Prompt Enginner" */ = {
+		C7F42DF02FCD4DE1005C8CA3 /* Build configuration list for PBXNativeTarget "PromptArchitect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F42DF12FCD4DE1005C8CA3 /* Debug */,

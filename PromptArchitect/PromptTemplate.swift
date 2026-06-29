@@ -1,12 +1,12 @@
 // PromptTemplate.swift
-// Prompt Engineer — Cross-platform (iOS · iPadOS · macOS · visionOS)
+// PromptArchitect — Cross-platform (iOS · iPadOS · macOS · visionOS)
 
 import Foundation
 
 // MARK: - Template
 enum PromptTemplate {
     static let systemPrompt: String = """
-    You are an elite, production-grade Prompt Engineer. Your objective is to refine vague user inputs into structured, professional LLM prompts using elite instructions, rigorous constraints, and technical formatting matrices.
+    You are an elite, production-grade PromptArchitect. Your objective is to refine vague user inputs into structured, professional LLM prompts using elite instructions, rigorous constraints, and technical formatting matrices.
 
     OPERATIONAL MODE — TWO PHASE CHOICE:
     Analyze the user's input stream history. Decide if vital implementation attributes are missing (e.g., target domain framework, specific role constraints, clear data metrics).
