@@ -294,7 +294,6 @@ struct SettingsView: View {
 
                 Section("OpenAI Profile Framework") {
                     SecureField("OpenAI API Key", text: $apiKeyField)
-                        .disabled(sandboxToggle)
                 }
 
                 Section("Interface Preferences") {
