@@ -43,3 +43,8 @@ user_choices:
 ## 🎨 Design
 
 The app includes a custom logo generated procedurally for this project, featuring a sleek, dark-themed prompt box with an accent of vibrant green and yellow sparkles, representing the magic of AI prompt generation.
+
+## 📦 Releases
+
+This repository uses **GitHub Actions** for CI/CD.
+Whenever you push a tag (e.g., `v1.0`), the workflow will automatically compile the macOS `.app` binary and publish it directly to the GitHub Releases page as a `.zip` archive. No manual build steps required!
