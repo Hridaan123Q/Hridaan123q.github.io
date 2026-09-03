@@ -11,8 +11,8 @@ class Agent:
             api_key=self.api_key,
             base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
         )
-        # Using Gemini Flash for fast execution tier as specified in memory
-        self.model = "gemini-1.5-flash"
+        # Using the latest stable Gemini Flash model for fast execution tier
+        self.model = "gemini-2.0-flash"
 
     async def execute_task(self, prompt: str) -> str:
         try:
