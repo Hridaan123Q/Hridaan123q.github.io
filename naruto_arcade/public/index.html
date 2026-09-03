@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Arcade Platformer</title>
+    <!-- Press Start 2P Font for Retro Arcade Vibe -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- CRT Overlay -->
+        <div class="crt-overlay"></div>
+
+        <!-- The Canvas Game -->
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+
+        <!-- UI Layer -->
+        <div id="ui-layer">
+
+            <!-- In-Game HUD (Hidden initially) -->
+            <div id="hud" class="hidden">
+                <div class="hud-top">
+                    <span id="hud-score">SCORE: 0</span>
+                    <span id="hud-distance">DIST: 0m</span>
+                    <span id="hud-lives">LIVES: 3</span>
+                </div>
+                <div class="hud-bottom">
+                    <span id="hud-shuriken">SHURIKEN: 10</span>
+                    <span id="hud-jutsu">CLONE JUTSU: READY</span>
+                </div>
+            </div>
+
+            <!-- Title Screen -->
+            <div id="title-screen" class="screen">
+                <h1 class="marquee-title">NINJA RUN<br>ARCADE</h1>
+                <p class="blink-text">PRESS ENTER TO START</p>
+                <button id="btn-leaderboard-view" class="arcade-btn">VIEW LEADERBOARD</button>
+            </div>
+
+            <!-- Character Selection Screen -->
+            <div id="char-select-screen" class="screen hidden">
+                <h2>SELECT YOUR NINJA</h2>
+                <div class="char-cards">
+                    <div class="char-card" data-char="naruto">
+                        <h3>NARUTO</h3>
+                        <p>Balanced</p>
+                        <p>Special: Shadow Clone</p>
+                    </div>
+                    <div class="char-card" data-char="sasuke">
+                        <h3>SASUKE</h3>
+                        <p>Fast Runner</p>
+                        <p>Special: Chidori Dash</p>
+                    </div>
+                    <div class="char-card" data-char="sakura">
+                        <h3>SAKURA</h3>
+                        <p>High Jumper</p>
+                        <p>Special: Ground Smash</p>
+                    </div>
+                </div>
+                <p class="instruction">USE ARROWS & ENTER</p>
+            </div>
+
+            <!-- Pause Menu -->
+            <div id="pause-screen" class="screen hidden">
+                <h2>PAUSED</h2>
+                <p>PRESS 'P' TO RESUME</p>
+            </div>
+
+            <!-- Game Over Screen -->
+            <div id="game-over-screen" class="screen hidden">
+                <h2 class="game-over-text">GAME OVER</h2>
+                <p id="final-score">SCORE: 0</p>
+                <div id="score-submit-container">
+                    <input type="text" id="player-name" maxlength="10" placeholder="ENTER NAME" autocomplete="off">
+                    <button id="btn-submit-score" class="arcade-btn">SUBMIT</button>
+                </div>
+                <p class="blink-text mt-20">PRESS ENTER TO RESTART</p>
+            </div>
+
+            <!-- Leaderboard View -->
+            <div id="leaderboard-screen" class="screen hidden">
+                <h2>HIGH SCORES</h2>
+                <ul id="leaderboard-list">
+                    <li>LOADING...</li>
+                </ul>
+                <button id="btn-back-title" class="arcade-btn">BACK</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
