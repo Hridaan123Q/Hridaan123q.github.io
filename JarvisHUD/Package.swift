@@ -1,0 +1,16 @@
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "JarvisHUD",
+    platforms: [
+        .macOS(.v13)
+    ],
+    targets: [
+        .executableTarget(
+            name: "JarvisHUD",
+            path: ".",
+            sources: ["JarvisHUDApp.swift", "ContentView.swift", "NetworkManager.swift"]
+        )
+    ]
+)
